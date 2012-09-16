@@ -1,0 +1,31 @@
+[color]
+	branch = always
+	diff = always
+	status = always
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+[user]
+	name = Kevin C
+	email = kkevinchou@gmail.com
+[alias]
+	l = log
+	tree = log -n 50 --pretty=\"%C(yellow)%h %Creset %s %C(red)(%cr)%Creset\" --graph
+    d = diff
+    s = status
+	b = branch
+	c = commit
+	co = checkout
+	r = reset
+	a = add
+	p = push
