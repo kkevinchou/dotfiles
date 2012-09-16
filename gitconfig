@@ -21,8 +21,8 @@
 [alias]
 	l = log
 	tree = log -n 50 --pretty=\"%C(yellow)%h %Creset %s %C(red)(%cr)%Creset\" --graph
-    d = diff
-    s = status
+	d = diff
+	s = status
 	b = branch
 	c = commit
 	co = checkout
