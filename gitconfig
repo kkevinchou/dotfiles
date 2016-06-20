@@ -17,7 +17,6 @@
 	untracked = cyan
 [user]
 	name = Kevin C
-	email = kkevinchou@gmail.com
 [alias]
 	l = log
 	tree = log -n 50 --pretty=\"%C(yellow)%h %Creset %s %C(red)(%cr)%Creset\" --graph
